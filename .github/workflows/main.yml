@@ -18,6 +18,7 @@ env:
 
 # This runs every day on 1801 UTC
 on:
+  push:
   # Or on push, if for mirror it runs on workflow setup and changes
   schedule:
     - cron: '1 18 * * *'
